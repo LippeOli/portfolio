@@ -10,7 +10,7 @@ function Home() {
                 <div>
                   <p>Olá, sou Felipe Oliveira</p>
                   <h1 className='gradient'>Desenvolvedor Full Stack</h1>
-                  <button className='button'>Contate me</button>
+                  <a class="button" href="#contato">Contate me</a>
                 </div>
                 <div className='links'>
                     <a href="https://github.com/LippeOli" target="_blank">

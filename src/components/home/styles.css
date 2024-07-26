@@ -36,14 +36,18 @@ p {
     padding-right: 2px;
 }
 
-.button{
-    
-    padding: 20pxpx;
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
     background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
-    color:azure;
-    text-underline-offset:initial;
-
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
+
 
 .links{
     margin-top: 25px;
