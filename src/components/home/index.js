@@ -7,9 +7,11 @@ function Home() {
     return (
         <div className='home-panel'>
            <div className='title'>
-                <p>Olá, sou Felipe Oliveira</p>
-                <h1 className='gradient'>Desenvolvedor Full Stack</h1>
-                
+                <div>
+                  <p>Olá, sou Felipe Oliveira</p>
+                  <h1 className='gradient'>Desenvolvedor Full Stack</h1>
+                  <button className='button'>Contate me</button>
+                </div>
                 <div className='links'>
                     <a href="https://github.com/LippeOli" target="_blank">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADq0lEQVRoge2ZWUgVYRTHzXLNMjOyElrsoV1B08LqpQiMyjKiPX3ptQ16KqqHjF5C9KWShKyIknqKLI2ISoSisoIIW8g2WqQFs307/Q/fd2G4znTnzDf3DoQHfni545zz/8+d+e75zo2L643/MIgoCQwGOSALpAWtyTEgLh7MBDtBM3gK/lDPeAtaQTUoDdwUBGSDPeCFjVg30Q0Og6JYCx8C9oNvHoXbxXmQFwvxFeCdj8Kt8RNUgeRoCE8FR6IkPDzawFg/xWeAlhiJDwU/8NP9EJ8ObsVYfCi6QIGJ+ERwKSDxoXgDcrwaqA5YfCjugBSp+BKy/zIKKvZKxKeARy4Ts8nT4KVQ0GfQCB64/H9eYnPdGtgiENKqz+kLFoOH+v1uLe6Ghi/ID/AJ7AaD9HnLBLWa3IhPJtnVrA07n5u4PDZkkzsBpIe9N01Qi6MwkoFVwoSHIn+m/6w3W1ivPlLCJmHCZkMD+eCXoN5H0N8pWRqp+9Rt8IOVb2JA160U1ORY4JSoRJjoqKl4XZc3Pl8FdaucEm0XGij3w4Cu3Sqo2+KU5JjQQImPBiS1O52SXBEaKPPRgLRV79lakLzrXO+jAenql2WX5J4wSYOPBl4Ja4+0S3JdmOQL2V0JufhiYV2OTLtEFzwk4jFKvIF43nO0CWv+Bgl2yWo9GOBg49kexA/XF0AaHU4JNwmS3AWbSQ2xOL6Dk2A1yAWJNvl5MMCtwxpwglRn6iXOOhkoFCThfcAOUsOtjrBjvBj0uEdJjRjvexRtjW1OBrin/yA0wd3kFPBMv8dXtdSSsx9ZWmu8XueDAedpBQ7WCZPdBkn63IGW15PAGDCD1G0zEYzm4obin9C/Fg0cnOUh6UV9XiYYSmrjwvuKcaQ2LAWgCMwDkw0NVDqKt5i4ZliEha/Vf/m5ChlYRGYG+HtnmBsDCw0NjAflYBSpsXuhNrCE1ArlNWoiireYOGdQiH/UqCA1xeY9RrE2sAJM8JizE2RIDLCILg+FeLrMK88pUgMCnnDwyjMC1Otj0oWCY6Vr8RYTyz0U4q7yOWggdSvysvwaLAXHwWNSD70k6sTiLSZ2eTDhZ1wmk98LcHIfsC8g8TdJD8CMQpuI9SfBDeIAY/FhRspI1mp4CW5PasimGfTLBLcHjVES3w7mREW4jZH54KpPwnnV2kDRuuoRjHAPdBC8F4rm/cMZUkt1UsyF2xjhVnwq2AgOkPo+4LF6u/7LP1Xx6GQrmAtSg9bcG37FX9FNuyC/VXM0AAAAAElFTkSuQmCC" 

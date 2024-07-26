@@ -1,0 +1,49 @@
+/* Estilos para a navbar */
+.home-panel {
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(55, 55, 55); /* Fundo branco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); /* Sombra do painel */
+    padding: 10px;
+    width: 90%; /* Largura total da tela */
+    max-width: 1200px; /* Largura máxima para evitar que fique muito larga */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente na tela */
+    top: 10px; /* Ajuste conforme necessário para mover a navbar mais para cima */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Espaçamento entre os itens */
+  }
+  
+  .navbar-item {
+    margin: 0; /* Remove margens extras */
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #252423;
+  }
+  
+ 
+  

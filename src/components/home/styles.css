@@ -18,7 +18,7 @@
 }
 
 .gradient {
-    font-family:;
+    
     background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
     color: black;
 
@@ -36,6 +36,15 @@ p {
     padding-right: 2px;
 }
 
+.button{
+    
+    padding: 20pxpx;
+    background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+    color:azure;
+    text-underline-offset:initial;
+
+}
+
 .links{
     margin-top: 25px;
     
@@ -44,6 +53,6 @@ p {
 .perfil {
     height: 180px;
     width: 200px;
-    margin-right: 50px;
+    margin-right: 35px;
     border-radius: 10px;
 }
