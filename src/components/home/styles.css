@@ -60,3 +60,18 @@ p {
     margin-right: 35px;
     border-radius: 10px;
 }
+
+@media (max-width: 820px) { 
+
+
+    .home-panel {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .button {
+        background-image: linear-gradient(to right, #13fd26, rgb(233, 31, 31), turquoise);
+        
+    }
+    
+}

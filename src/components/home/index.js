@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css'
-import Perfil from '../../assets/Foto.jpg';
+import Perfil from '../../assets/fotos/Foto.jpg';
 
 function Home() {
 
@@ -10,7 +10,7 @@ function Home() {
                 <div>
                   <p>Olá, sou Felipe Oliveira</p>
                   <h1 className='gradient'>Desenvolvedor Full Stack</h1>
-                  <a class="button" href="#contato">Contate me</a>
+                  <a class="button" href="https://wa.me/+5511956090107">Contate me</a>
                 </div>
                 <div className='links'>
                     <a href="https://github.com/LippeOli" target="_blank">

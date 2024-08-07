@@ -10,6 +10,7 @@
     "@tsparticles/react": "^3.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router": "^6.25.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -39,8 +40,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.14.5",
     "@babel/plugin-proposal-private-methods": "^7.14.5",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@babel/preset-react": "^7.14.5"
   }
 }

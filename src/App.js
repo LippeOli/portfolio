@@ -10,37 +10,35 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-   
-   <div className="App">
-      
-      <ParticlesBackground />
+    <div className="container">
 
-      <div className="content">
-       
-       <div className="section">
-         <Navbar />
-       </div>
-
-        <div id="home" className="section">
-          <Home/>
-        </div>
-
-        <div id="about" className="section">
-          <About/>
-        </div>
-
-        <div id="skills" className="section">
-          <Skills/>
-        </div>
-
-        <div id="contact" className="section">
-          <Contact/>
-        </div>
+      <ParticlesBackground/>
+      <div className="panel">
+        <Navbar />
       </div>
       
+      <div id="home" className="panel">
+        <Home />
+      </div>
+      
+      <div id="about" className="panel">
+        <About />
+      </div>
+      
+      <div id="skills" className="panel">
+        <Skills />
+      </div>
+      
+      <div id="projects" className="panel">
+        <Projects />
+      </div>
+      
+      <div id="contact" className="panel">
+        <Contact />
+      </div>
     </div>
-  
   );
 }
+
 
 export default App;

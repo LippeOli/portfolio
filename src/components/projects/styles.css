@@ -1,13 +1,102 @@
 .home-panel {
-    position: relative;
-    z-index: 1; /* Garante que o conteúdo esteja acima do fundo de partículas */
-    background-color: rgb(55, 55, 55); /* Fundo branco semi-transparente */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); /* Sombra do painel */
+ 
+  background-color: rgb(55, 55, 55); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); 
+  
+}
 
-    padding: 20px;
-    width: 80%; /* Largura do painel */
-    margin-top: 40px;
+.projects {
+
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+  margin: 0 ;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
 
 }
 
+.projects-container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 0 ;
+  margin-top: 40px;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.project-card {
+  display: flex;
+  background: #444;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 40%;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+  width: 60%;
+}
+
+.project-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.technologies {
+  margin-bottom: 20px;
+}
+
+.technologies span {
+  background: #555;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.project-links .btn {
+  display: inline-block;
+  background: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-links .btn:hover {
+  background: #004a99;
+}
+
+h2 {
+  border-color: azure;
+}
