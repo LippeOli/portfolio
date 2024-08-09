@@ -7,7 +7,11 @@ const projectsData = [
     title: "Sistema de chamados",
     description: "Projeto fullstack desenvolvido utilizando React e Firebase. O sistema é projetado para atender as necessidades da empresa ao gerenciar chamados de clientes, com suporte para diversos tipos de chamados, como suporte técnico, visita técnica e questões financeiras.",
     image: Urbverde,
-    technologies: ["JavaScript", "React", "Firebase"],
+    technologies: [
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' }
+    ],
     projectLink: "#",
     repoLink: "#",
   },
@@ -32,16 +36,18 @@ const Projects = () => {
               <img src={project.image} alt={`${project.title} screenshot`} />
             </div>
             <div className="project-info">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
               <div className="technologies">
                 {project.technologies.map((tech, i) => (
-                  <span key={i}>{tech}</span>
+                  <div key={i} className="tech-icon">
+                    <img src={tech.icon} alt={tech.name} />
+                  </div>
                 ))}
               </div>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
               <div className="project-links">
                 <a href={project.projectLink} className="btn">Ver Projeto</a>
-                <a href={project.repoLink} className="btn">Repositório</a>
+                <a href={project.repoLink} className="btn btn-repo">Repositório</a>
               </div>
             </div>
           </div>
@@ -50,5 +56,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
