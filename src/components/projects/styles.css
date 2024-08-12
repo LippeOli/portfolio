@@ -97,3 +97,63 @@ h2{
   background: #747676;
 }
 
+
+/* Media Query para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  
+
+
+  .projects-container {
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-card {
+    flex-direction: column; /* Muda para coluna no mobile */
+    text-align: center;
+  }
+
+  .project-image {
+    width: 100%; /* Imagem ocupa toda a largura no mobile */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .project-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .technologies {
+    justify-content: center; /* Centraliza os ícones no mobile */
+    margin-bottom: 15px;
+  }
+
+  .project-info h3 {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte no mobile */
+
+  }
+
+  .project-info p {
+    font-size: 1em; /* Mantém o tamanho da fonte, mas você pode ajustar se necessário */
+    justify-content: center;
+    padding: 15px;
+    margin-left: -10px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+  }
+
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .project-links .btn {
+    width: 50%; /* Botões ocupam 90% da largura no mobile */
+    padding: 10px;
+    margin: 0 auto; /* Centraliza os botões */
+    margin-bottom: 7px;
+  }
+}

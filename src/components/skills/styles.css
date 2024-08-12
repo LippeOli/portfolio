@@ -42,3 +42,26 @@
     font-size: 14px;
     color: aliceblue;
   }
+
+  
+/* Media Query para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+ 
+  .box-tecs {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    margin-top: 7px;
+  }
+  
+  .box-tecs img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .box-tecs span {
+    margin-top: 10px;
+    font-size: 14px;
+    color: aliceblue;
+  }
+}

@@ -54,4 +54,24 @@
   }
   
  
-  
+
+/* Media Query para telas pequenas */
+@media only screen and (max-width: 600px) {
+  .home-panel {
+    width: 100%;
+    left: 0;
+    transform: none;
+    top: 0; /* Ajusta a navbar para o topo da tela */
+    border-radius: 0; /* Remove bordas arredondadas para ocupar toda a largura */
+  }
+
+  .navbar-menu {
+    flex-direction: column; /* Coloca os itens do menu em coluna */
+    gap: 10px; /* Reduz o espaçamento entre os itens */
+  }
+
+  .navbar-link {
+    font-size: 16px; /* Reduz o tamanho da fonte para caber melhor na tela */
+    padding: 10px 0; /* Adiciona padding para facilitar o toque em dispositivos móveis */
+  }
+}

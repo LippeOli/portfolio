@@ -31,3 +31,16 @@ h1 {
     color: #ccc; /* Cor do texto do parágrafo */
   }
   
+  
+/* Estilos para mobile */
+@media (max-width: 600px) {
+    .home-panel {
+        margin: 40px auto; /* Centraliza o painel horizontalmente no mobile */
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .box {
+        margin: 0 auto; /* Centraliza a caixa de texto */
+        max-width: 100%; /* Faz a caixa ocupar toda a largura disponível no mobile */
+    }
+}
