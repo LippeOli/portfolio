@@ -1,5 +1,6 @@
 import React from 'react';
 import Urbverde from '../../assets/fotos/urbVerde.png';
+import ClinicaFO from '../../assets/fotos/wpsite.png';
 import './styles.css';
 
 const projectsData = [
@@ -8,8 +9,8 @@ const projectsData = [
     description: "Projeto fullstack desenvolvido utilizando React e Firebase. O sistema é projetado para atender as necessidades da empresa ao gerenciar chamados de clientes, com suporte para diversos tipos de chamados, como suporte técnico, visita técnica e questões financeiras.",
     image: Urbverde,
     technologies: [
+      { name: 'VueJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' }
     ],
     projectLink: "#",
@@ -18,8 +19,14 @@ const projectsData = [
   {
     title: "Secure Auth",
     description: "Projeto full stack destinado a fornecer funcionalidades de autenticação de usuário. Permite que os usuários se autentiquem via e-mail e senha, bem como através de contas do Google e do GitHub. Além disso, os usuários podem selecionar um avatar ou carregar uma foto para usar como avatar.",
-    image: "/path/to/your/image.png", // Altere o caminho da imagem conforme necessário
-    technologies: ["JavaScript", "React", "Firebase"],
+    image: ClinicaFO,
+    technologies: [
+  
+      { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'},
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'}
+
+    ],
     projectLink: "#",
     repoLink: "#",
   },

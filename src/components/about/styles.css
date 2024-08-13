@@ -1,7 +1,6 @@
 .home-panel {
     position: relative;
     z-index: 1; /* Garante que o conteúdo esteja acima do fundo de partículas */
-    background-color: rgb(55, 55, 55); /* Fundo branco semi-transparente */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); /* Sombra do painel */
 
@@ -24,12 +23,13 @@
 
 h1 {
     margin: 0;
-    color: #fff; /* Cor do texto do título */
+    color: #333; /* Cor do texto do título */
   }
   
   p {
-    color: #ccc; /* Cor do texto do parágrafo */
-  }
+    color: #333; 
+    
+    }
   
   
 /* Estilos para mobile */

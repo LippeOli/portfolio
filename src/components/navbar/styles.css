@@ -1,8 +1,7 @@
 /* Estilos para a navbar */
-.home-panel {
+.navbar {
     position: fixed;
     z-index: 10;
-    background-color: rgb(55, 55, 55); /* Fundo branco semi-transparente */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); /* Sombra do painel */
     padding: 10px;
@@ -43,7 +42,8 @@
   }
   
   .navbar-link {
-    color: #fff;
+    color: #2b2b2b;
+    font-weight: 500;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -53,25 +53,60 @@
     color: #252423;
   }
   
- 
 
-/* Media Query para telas pequenas */
-@media only screen and (max-width: 600px) {
-  .home-panel {
-    width: 100%;
-    left: 0;
-    transform: none;
-    top: 0; /* Ajusta a navbar para o topo da tela */
-    border-radius: 0; /* Remove bordas arredondadas para ocupar toda a largura */
+  @media (max-width: 600px) {
+    .navbar {
+      position: fixed;
+      top: 1;
+      width: 100%;
+      background-color: #f8f9fa;
+    }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  
+    .navbar-menu {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      gap: 0px; /* Espaçamento entre os itens no mobile */
+    }
+  
+    .navbar-link {
+      position: relative;
+      color: #333;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+  
+    /* Círculo animado para mobile */
+    .navbar .circle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background-color: #000;
+      border-radius: 50%;
+      bottom: -10px;
+      left: 0; /* Start with left 0 */
+      transform: translateX(-50%);
+      transition: left 0.3s ease, transform 0.3s ease;
+    }
+  
+    .navbar-link.active {
+      color: #000;
+    }
+  
+    .navbar-link.active .circle {
+      left: 50%; /* Centraliza o círculo no botão ativo */
+      transform: translateX(-50%);
+    }
   }
-
-  .navbar-menu {
-    flex-direction: column; /* Coloca os itens do menu em coluna */
-    gap: 10px; /* Reduz o espaçamento entre os itens */
-  }
-
-  .navbar-link {
-    font-size: 16px; /* Reduz o tamanho da fonte para caber melhor na tela */
-    padding: 10px 0; /* Adiciona padding para facilitar o toque em dispositivos móveis */
-  }
-}

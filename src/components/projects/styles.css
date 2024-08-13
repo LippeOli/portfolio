@@ -1,6 +1,6 @@
 .home-panel {
  
-  background-color: rgb(55, 55, 55); 
+  background-color: #cccccc; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); 
 }
@@ -30,7 +30,7 @@ h2{
 
 .project-card {
   display: flex;
-  background: #444;
+  background: #cccccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -58,6 +58,7 @@ h2{
 .project-info h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #333;
 }
 
 .project-info p {
