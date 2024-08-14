@@ -1,15 +1,16 @@
 .home-panel {
+   
     position: relative;
-    z-index: 1; /* Garante que o conteúdo esteja acima do fundo de partículas */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(42, 41, 41, 0.2); /* Sombra do painel */
-
-    padding: 20px;
-    width: 80%; /* Largura do painel */
-    margin-top: 40px;
+    z-index: 1;
+    margin: 40px auto; /* Centralize o container de projetos */
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
 
     display: flex;
     justify-content: space-between;
+    
 }
 
 .single-color {
@@ -67,22 +68,61 @@ p {
 @media only screen and (max-width: 768px) {
 
 
+    
     .home-panel {
         display: flex;
         flex-direction: column;
     }
-    
-    .title{
-        display: flex;
-        flex-direction: column;
-
-    }
-
-        
+   
     .perfil {
         
         height: 160px;
         width: 280px;
+        margin-right: 0px;        
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .home-panel {
+    
+        padding: 90px;
+        position: relative;
+        z-index: 1;
+        margin: auto; /* Centralize o container de projetos */
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 1200px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil {
+        
+        height: 120px;
+        width: 240px;
+        margin-right: 80px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+    
+    .home-panel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil {
+        display: flex;
+        margin-left: 15px;
+        height: 80px;
+        width: 180px;
         margin-right: 80px;
         
     }
