@@ -118,6 +118,12 @@ p {
         flex-direction: column;
     }
 
+    
+    .title{
+        margin-right: none;
+        justify-content: center;
+    }
+
     .perfil {
         display: flex;
         margin-left: 15px;
