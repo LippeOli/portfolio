@@ -1,34 +1,53 @@
 import React from 'react';
 import Urbverde from '../../assets/fotos/urbVerde.png';
-import ClinicaFO from '../../assets/fotos/wpsite.png';
+import ClinicaFO from '../../assets/fotos/ClinicaFO';
+import SetCadastro from '../../assets/fotos/Set Cadastro.png';
 import './styles.css';
 
 const projectsData = [
+
+  //UrbVerde
   {
-    title: "Sistema de chamados",
-    description: "Projeto fullstack desenvolvido utilizando React e Firebase. O sistema é projetado para atender as necessidades da empresa ao gerenciar chamados de clientes, com suporte para diversos tipos de chamados, como suporte técnico, visita técnica e questões financeiras.",
+    title: "Plataforma UrbVerde",
+    description: "Projeto fullstack para desenvolver a plataforma da UrbVerde. Ela foi desenvolvida em VueJS, especializada na geração de mapas para gestão ambiental. O sistema permite o mapeamento de áreas verdes e a análise de dados geoespaciais para planejamento urbano sustentável.",
     image: Urbverde,
     technologies: [
       { name: 'VueJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
       { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' }
     ],
-    projectLink: "#",
-    repoLink: "#",
+    projectLink: "https://urbverde.iau.usp.br/",
+    repoLink: "https://github.com/UrbVerde/urbverde-ui",
   },
+
+  //Set Cadastro
   {
-    title: "Secure Auth",
-    description: "Projeto full stack destinado a fornecer funcionalidades de autenticação de usuário. Permite que os usuários se autentiquem via e-mail e senha, bem como através de contas do Google e do GitHub. Além disso, os usuários podem selecionar um avatar ou carregar uma foto para usar como avatar.",
+    title: "Set Cadastro",
+    description: "Projeto backend em Spring Boot Java, voltado para o cadastros de usuário e alocado em um Banco de Dados MySQL. Oferece funcionalidades robustas de autenticação e controle de acesso, ideal para aplicações corporativas.",
+    image: SetCadastro,
+    technologies: [
+  
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
+      { name: 'Spring Boot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg'},
+      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'}
+
+    ],
+    projectLink: "#",
+    repoLink: "https://github.com/LippeOli/Set-Login-Backend",
+  },
+  //ClinicaFO
+  {
+    title: "ClinicaFO",
+    description: "Desenvolvimento de um site responsivo e moderno para uma clínica odontológica. O site inclui seções para agendamento de consultas, informações sobre tratamentos e perfis dos profissionais, tudo integrado a um sistema de gestão de conteúdo fácil de usar.",
     image: ClinicaFO,
     technologies: [
   
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'},
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'}
 
     ],
-    projectLink: "#",
-    repoLink: "#",
+    projectLink: "http://clinicafo.rf.gd/?i=1",
+    repoLink: "https://github.com/LippeOli",
   },
 ];
 
