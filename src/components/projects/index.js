@@ -1,6 +1,6 @@
 import React from 'react';
 import Urbverde from '../../assets/fotos/urbVerde.png';
-import ClinicaFO from '../../assets/fotos/ClinicaFO';
+import Clinica_FO from '../../assets/fotos/clinicafo.png';
 import SetCadastro from '../../assets/fotos/Set Cadastro.png';
 import './styles.css';
 
@@ -29,7 +29,9 @@ const projectsData = [
   
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
       { name: 'Spring Boot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg'},
-      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'}
+      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'},
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+      { name: 'JavaSCript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
 
     ],
     projectLink: "#",
@@ -39,7 +41,7 @@ const projectsData = [
   {
     title: "ClinicaFO",
     description: "Desenvolvimento de um site responsivo e moderno para uma clínica odontológica. O site inclui seções para agendamento de consultas, informações sobre tratamentos e perfis dos profissionais, tudo integrado a um sistema de gestão de conteúdo fácil de usar.",
-    image: ClinicaFO,
+    image: Clinica_FO,
     technologies: [
   
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'},
