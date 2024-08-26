@@ -2,6 +2,7 @@ import React from 'react';
 import Urbverde from '../../assets/fotos/urbVerde.png';
 import Clinica_FO from '../../assets/fotos/clinicafo.png';
 import SetCadastro from '../../assets/fotos/Set Cadastro.png';
+import Autocomplete from '../../assets/fotos/Autocomplete.png';
 import './styles.css';
 
 const projectsData = [
@@ -34,7 +35,7 @@ const projectsData = [
       { name: 'JavaSCript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
 
     ],
-    projectLink: "#",
+    projectLink: "https://github.com/LippeOli/Set-Login-Backend",
     repoLink: "https://github.com/LippeOli/Set-Login-Backend",
   },
   //ClinicaFO
@@ -51,6 +52,22 @@ const projectsData = [
     projectLink: "http://clinicafo.rf.gd/?i=1",
     repoLink: "https://github.com/LippeOli",
   },
+  
+    //Autocomplete Map
+    {
+      title: "Autocomplete Map",
+      description: "Projeto desenvolvidoo para ser uma busca de loocalização com autocomplete, através de API Nominatium, OpenStreetMaps e Geocoding .",
+      image: Autocomplete,
+      technologies: [
+    
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+      { name: 'JavaSCript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+      { name: 'FireBase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg'},
+
+      ],
+      projectLink: "https://github.com/LippeOli/Address-Autocomplete-with-Geocoding",
+      repoLink: "https://github.com/LippeOli/Address-Autocomplete-with-Geocoding",
+    },
 ];
 
 const Projects = () => {
