@@ -48,8 +48,9 @@ const projectsData = [
     technologies: [
     
     { name: 'NodeJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
-    { name: 'JavaSCript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
     { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'},
+    { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+    { name: 'JavaSCript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
     ],
     projectLink: "https://github.com/LippeOli/Task-Manager-JE-Frontend",
     repoLink: "https://taskmanagerfelipe.netlify.app/",
