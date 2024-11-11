@@ -16,28 +16,36 @@ function Skills() {
                     <span>Java</span>
                 </div>
                 <div className='box-tecs'>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' alt='Node' />
+                    <span>NodeJS</span>
+                </div>
+                <div className='box-tecs'>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' alt='Postgres' />
+                    <span>Postgres</span>
+                </div>
+                <div className='box-tecs'>
                     <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' alt='Spring Boot' />
                     <span>Spring Boot</span>
-                </div>
-                <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' alt='MySQL' />
-                    <span>MySQL</span>
-                </div>
-                <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' alt='MongoDB' />
-                    <span>MongoDB</span>
                 </div>
                 <div className='box-tecs'>
                     <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' alt='JavaScript' />
                     <span>JavaScript</span>
                 </div>
                 <div className='box-tecs'>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='VueJS' />
+                    <span>VueJS</span>
+                </div>
+                <div className='box-tecs'>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' alt='Python' />
+                    <span>Python</span>
+                </div>
+                <div className='box-tecs'>
                     <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' alt='ReactJS' />
                     <span>ReactJS</span>
                 </div>
                 <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='VueJS' />
-                    <span>VueJS</span>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' alt='Firebase' />
+                    <span>Firebase</span>
                 </div>
                 <div className='box-tecs'>
                     <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' alt='HTML' />
@@ -48,20 +56,12 @@ function Skills() {
                     <span>CSS</span>
                 </div>
                 <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' alt='TailwindCSS' />
-                    <span>TailwindCSS</span>
-                </div>
-                <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' alt='Git' />
-                    <span>Git</span>
-                </div>
-                <div className='box-tecs'>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GITHUB" />
                     <span>GitHub</span>
                 </div>
                 <div className='box-tecs'>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' alt='Firebase' />
-                    <span>Firebase</span>
+                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' alt='Git' />
+                    <span>Git</span>
                 </div>
             </div>
         </div>

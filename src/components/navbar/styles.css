@@ -56,11 +56,11 @@
   
   
 
-  @media (max-width: 600px) {
+  @media (max-width: 728px) {
     .navbar {
       position: fixed;
       top: 0;
-      width: 90%;
+      width: 94%;
     }
   
     .navbar-container {

@@ -68,7 +68,9 @@ function Contact() {
                             <circle cx="4" cy="4" r="2"/>
                             </svg>
                         </div>
-                        <span>linkedin.com/in/felipe</span>
+                        <div>
+                            <a className='link' href="https://www.linkedin.com/in/felipe-oliveira-carvalho-9b6b52285/">LinkedInd/felipeoliveira</a>
+                        </div>
                     </div>
 
                 </div>
