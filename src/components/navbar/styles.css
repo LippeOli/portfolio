@@ -34,7 +34,7 @@
     justify-content: center; /* Centraliza os itens horizontalmente */
     margin: 0;
     padding: 0;
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 100px; /* Espaçamento entre os itens */
   }
   
   .navbar-item {
@@ -52,14 +52,15 @@
   .navbar-link:hover {
     color: #252423;
   }
+
+  
   
 
   @media (max-width: 600px) {
     .navbar {
       position: fixed;
-      top: 1;
-      width: 100%;
-      background-color: #f8f9fa;
+      top: 0;
+      width: 90%;
     }
   
     .navbar-container {
@@ -67,46 +68,21 @@
       justify-content: center;
       align-items: center;
       position: relative;
-    }
-  
-    .navbar-menu {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-      gap: 0px; /* Espaçamento entre os itens no mobile */
+      
     }
   
     .navbar-link {
+      
       position: relative;
       color: #333;
-      text-decoration: none;
-      margin: 0 10px;
-      font-size: 16px;
-      padding: 5px 10px;
+      font-size: 15px;
       transition: color 0.3s;
     }
-  
-    /* Círculo animado para mobile */
-    .navbar .circle {
-      position: absolute;
-      width: 8px;
-      height: 8px;
-      background-color: #000;
-      border-radius: 50%;
-      bottom: -10px;
-      left: 0; /* Start with left 0 */
-      transform: translateX(-50%);
-      transition: left 0.3s ease, transform 0.3s ease;
+
+    .navbar-menu {
+      gap: 30px; /* Espaçamento entre os itens */
     }
+    
+    
   
-    .navbar-link.active {
-      color: #000;
-    }
-  
-    .navbar-link.active .circle {
-      left: 50%; /* Centraliza o círculo no botão ativo */
-      transform: translateX(-50%);
-    }
   }

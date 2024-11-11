@@ -73,6 +73,10 @@ p {
         display: flex;
         flex-direction: column;
     }
+
+    .title{
+        margin: 0;
+     }
    
     .perfil {
         
@@ -80,6 +84,7 @@ p {
         width: 280px;
         margin-right: 0px;        
     }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -89,7 +94,6 @@ p {
         padding: 90px;
         position: relative;
         z-index: 1;
-        margin: auto; /* Centralize o container de projetos */
         text-align: center;
         justify-content: center;
         width: 90%;
@@ -107,29 +111,4 @@ p {
         
     }
 
-}
-
-@media only screen and (max-width: 320px) {
-
-
-    
-    .home-panel {
-        display: flex;
-        flex-direction: column;
-    }
-
-    
-    .title{
-        margin-right: none;
-        justify-content: center;
-    }
-
-    .perfil {
-        display: flex;
-        margin-left: 15px;
-        height: 80px;
-        width: 180px;
-        margin-right: 80px;
-        
-    }
 }

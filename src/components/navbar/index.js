@@ -41,22 +41,21 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="circle"></div> {/* Círculo que se move */}
         <ul className="navbar-menu">
           <li className="navbar-item">
             <a href="#home" className="navbar-link">Home</a>
           </li>
           <li className="navbar-item">
-            <a href="#about" className="navbar-link">About</a>
+            <a href="#about" className="navbar-link">Sobre mim</a>
           </li>
           <li className="navbar-item">
-            <a href="#skills" className="navbar-link">Skills</a>
+            <a href="#skills" className="navbar-link">Tecnologias</a>
           </li>
           <li className="navbar-item">
-            <a href="#projects" className="navbar-link">Projects</a>
+            <a href="#projects" className="navbar-link">Projetos</a>
           </li>
           <li className="navbar-item">
-            <a href="#contact" className="navbar-link">Contact</a>
+            <a href="#contact" className="navbar-link">Contato</a>
           </li>
         </ul>
       </div>

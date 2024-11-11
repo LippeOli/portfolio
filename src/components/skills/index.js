@@ -7,7 +7,7 @@ function Skills() {
         
         <div>
             <div>
-                <h1 className='title'>Skills</h1>
+                <h1 className='title'>Tecnologias</h1>
             </div>
             <div className='skills-container'>
         
